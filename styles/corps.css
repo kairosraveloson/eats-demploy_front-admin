@@ -1,0 +1,94 @@
+a {
+  text-decoration: none;
+  color: #012970;
+}
+
+#nav-tab-shop > button:focus,
+#nav-tab-commande > button:focus,
+#nav-tab-shop > button:active {
+  color: #012970;
+  font-weight: 600;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 4px;
+  background-color: rgb(246, 249, 255);
+  border-radius: 0;
+}
+
+#nav-tab-shop > button.active,
+#nav-tab-commande > button.active,
+#nav-tab-utilisateur > button.active {
+  color: #012970;
+  font-weight: 600;
+  border-bottom-style: solid;
+  border-bottom-color: black;
+  border-bottom-width: 4px;
+  background-color: rgb(246, 249, 255);
+  border-radius: 0;
+}
+
+#nav-tab-commande > #nav-en_cours-tab {
+  border-bottom-color: orange;
+}
+
+.orange_button {
+  background-color: orange;
+}
+
+#nav-tab-commande > #nav-acceptee-tab {
+  border-bottom-color: green;
+}
+
+#nav-tab-commande > #nav-refusee-tab {
+  border-bottom-color: red;
+}
+
+#nav-tab-commande > #nav-a_recuperer-tab {
+  border-bottom-color: rgb(33, 130, 155);
+}
+
+#nav-tab-commande > #nav-en_livraison-tab {
+  border-bottom-color: rgb(0, 162, 255);
+}
+
+#nav-tab-shop > button,
+#nav-tab-commande > button,
+#nav-tab-utilisateur > button {
+  border-style: none;
+  color: #012970;
+  height: 48px;
+}
+
+#nav-tab-shop,
+#nav-tab-commande,
+#nav-tab-utilisateur {
+  border-width: 5px;
+  border-bottom: 4px solid rgb(246, 249, 255);
+  height: 48px;
+}
+
+h4,
+h2,
+h5,
+.pagetitle {
+  color: #012970;
+}
+
+.space_line_chart {
+  margin: 30px;
+  box-shadow: 0px 0px 4px #888888;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.space_line_chart_dash {
+  margin-right: 30px;
+  box-shadow: 0px 0px 4px #888888;
+  border-radius: 5px;
+  border-style: none;
+}
+
+#commande_detail {
+  background-color: aqua;
+  margin: 10px;
+}

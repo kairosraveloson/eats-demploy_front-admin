@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: rgb(246, 249, 255);
 }
 
 a {
@@ -22,5 +23,98 @@ a {
   body {
     color: white;
     background: black;
+  }
+}
+
+/**  Global configuration that apply to the whole website **/
+/*col-lg-2 col-md-3 col-sm-4 col-xm-2 */
+
+li > a {
+  text-decoration: none;
+  color: #012970;
+}
+
+h3 {
+  color: #012970;
+}
+
+#top_brand {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  height: 8%;
+  box-shadow: 0px 0px 2px 2px #ccc;
+}
+
+.dashboard-nav {
+  position: fixed;
+  background-color: none;
+  height: 92vh;
+  margin-top: 6vh;
+  width: 15%;
+  background-color: rgb(246, 249, 255);
+}
+
+#corps_principal {
+  height: 100%;
+  width: 83.5%;
+  margin-top: 7vh;
+  margin-right: 1vw;
+  float: right;
+  background-color: white;
+}
+
+#contenu_principal {
+  height: 98%;
+  width: 98%;
+  margin: 1%;
+  background-color: white;
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .dashboard-nav {
+    background-color: green;
+    width: 24%;
+  }
+
+  #corps_principal {
+    height: 100%;
+    width: 73%;
+    margin-top: 9vh;
+    margin-right: 1vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-nav {
+    background-color: rgb(246, 249, 255);
+    width: 24%;
+  }
+
+  #corps_principal {
+    background-color: white;
+    height: 100%;
+    width: 73%;
+    margin-top: 9vh;
+    margin-right: 1vw;
+  }
+
+  ul li.nav-item:hover {
+    width: 180px;
+    overflow: hidden;
+  }
+  /*
+  ul li:hover {
+    width: 200px;
+  }*/
+
+  nav > ul li.nav-item {
+    width: 50px;
+    overflow: hidden;
+  }
+
+  nav > ul li.nav-item {
+    transition: width 1s;
   }
 }
